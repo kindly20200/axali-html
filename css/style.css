@@ -5,10 +5,12 @@
 }
 
 .box:mai {
-    margin-right: auto;
+    margin-right: 60px;
 
 }
 .box:main {
-    margin-left: auto;
+    margin-left: 60px;
 
 }
+
+
