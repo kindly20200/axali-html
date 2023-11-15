@@ -8,9 +8,24 @@
     margin-right: 60px;
 
 }
+
 .box:main {
     margin-left: 60px;
 
 }
 
+.flex {
+    margin: auto;
+}
 
+.news-item {
+    width: 50%;
+}
+
+.uppercase {
+    font-family: "ALK Life", sans-serif;
+}
+
+p {
+    font-family: "BPG Classic Medium", sans-serif;
+}
