@@ -1,31 +1,23 @@
 .flex {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between gap: 30px;
+}
+
+article {
+    border-color: black;
+    border-style: solid;
+    border: size 1px;
+    background-color: red;
+}
+
+.box {
+    width: 25%;
+    padding: 30px;
 
 }
 
-.box:mai {
-    margin-right: 60px;
+* {
+    box-sizing: border-box;
 
-}
-
-.box:main {
-    margin-left: 60px;
-
-}
-
-.flex {
-    margin: auto;
-}
-
-.news-item {
-    width: 50%;
-}
-
-.uppercase {
-    font-family: "ALK Life", sans-serif;
-}
-
-p {
-    font-family: "BPG Classic Medium", sans-serif;
 }
