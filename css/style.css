@@ -1,15 +1,16 @@
 .flex {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
-    gap: 30px;
+    /* gap: 30px; */
+
 }
 
 article {
     border-color: black;
     border-style: solid;
     border: size 1px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .box {
@@ -18,10 +19,52 @@ article {
 
 }
 
-* {
-    box-sizing: border-box;
+
+.logo {
+    width: 230px;
+}
+
+p {
+    font-family: "BPG Classic Medium", sans-serif;
+}
+
+.uppercase {
+    font-family: "ALK Life", sans-serif;
+}
+
+header {
+    padding: 40px;
+}
+
+main {
+    padding: 40px;
 
 }
-.logo{
-    width: 230px;
+
+.news-item {
+    padding: 40px;
+}
+
+header a {
+    color: red;
+
+}
+
+header li {
+    padding: 20px;
+}
+
+header a:hover {
+    color:  rgb(0, 255, 0);
+    transition: all 0.9s;
+}
+
+.mews-article:hover {
+    color: yellow;
+    background-color: black;
+}
+
+img {
+    filter: drop-shadow(8px 8px 10px gray);
+    
 }
