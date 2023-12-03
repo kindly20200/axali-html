@@ -475,10 +475,9 @@ img {
 }
 
 /* box-sizing */
-* {
+ * {
     box-sizing: border-box;
 }
-
 /* remove bullets */
 li {
     list-style-type: none;

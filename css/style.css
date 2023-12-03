@@ -1,3 +1,13 @@
+body {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/hd/fa7bdd53820011.594239f721e01.gif);
+    
+}
+
+
+
+
+
+
 .flex {
     display: flex;
     /* flex-wrap: wrap; */
@@ -59,12 +69,38 @@ header a:hover {
     transition: all 0.9s;
 }
 
-.mews-article:hover {
-    color: yellow;
+.news-item:hover {
+    color: cyan;
     background-color: black;
+
+
 }
 
 img {
     filter: drop-shadow(8px 8px 10px gray);
+
+}
+
+.news-item {
+    line-height: 25px;
+    transition: all 0.9s;
+}
+
+
+.sun {
+    animation-name: jumping-text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes jumping-text {
+    from {
+        margin-left: 20%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
 
 }
